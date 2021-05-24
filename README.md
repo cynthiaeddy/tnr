@@ -4,7 +4,7 @@ Welcome to the code challenge part of the application process for TNR.
 ## My process, questions, assumptions
 Process: First I found the fonts that TNR is currently using instead of the previous fonts shown on the example, since finding the current fonts was easier. 
 Haven't worked with propTypes before. Being from a design background - I tend to style things first, get the skeleton on the page and work from there. Used media queries to translate to mobile.
-I did spend more than 4 hours on this because it was fun, but didn't finish...
+I did spend more than 4 hours on this because it was fun, but didn't finish... (most popular needs a lOt of work css styling wise, didn't even touch mobile)
 
 ## Instructions
 We want you to spend 2-4 hours on this, and you might not finish all of the features in that time. We'd prefer to see 
