@@ -1,0 +1,30 @@
+.MostPopular-list li {
+  display: inline;
+  border-top: 1px solid var(--red-text-color);
+  padding-top: 20px;
+  text-align: justify;
+}
+.MostPopular-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+.MostPopular-list h3 {
+  display: inline;
+  color: black;
+  font-size: 11px;
+  text-transform: unset;
+  margin: 0 10px 0 5px;
+  letter-spacing: 0;
+}
+.MostPopular-list h1 {
+  font-size: 24px;
+  display: inline;
+  vertical-align: middle;
+  line-height: 2.5;
+  margin: 0 5px 0 0;
+}

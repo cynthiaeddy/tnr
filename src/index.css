@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'Fakt';
+  src: url('./fonts/fakt-pro-cufonfonts-webfont/FaktProLight.woff')
+    format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fakt';
+  src: url('./fonts/fakt-pro-cufonfonts-webfont/FaktProBold.woff')
+    format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fakt';
+  src: url('./fonts/fakt-pro-cufonfonts-webfont/FaktProBlack.woff')
+    format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fakt';
+  src: url('./fonts/fakt-pro-cufonfonts-webfont/FaktProMedium.woff')
+    format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TestTiemposFine';
+  src: url('./fonts/TestTiemposFine/test-tiempos-fine-regular.woff')
+    format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TestTiemposFine';
+  src: url('./fonts/TestTiemposFine/test-tiempos-fine-regular-italic.woff')
+    format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+:root {
+  --red-text-color: rgb(233, 32, 18);
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overscroll-behavior: none;
+  overflow: visible;
+}
+.App-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
