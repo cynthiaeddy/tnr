@@ -1,15 +1,9 @@
 import React from 'react'
-import './Article.css'
+import '../stylesheets/Article.css'
 
 class Article extends React.Component {
   render() {
-    let imgUrl
-    const images = this.props.ledeImage
-    for (let img in images) {
-      if (img === 'src') {
-        imgUrl = images[img]
-      }
-    }
+    let imgUrl = this.props.ledeImage.src
 
     return (
       <div className='Article'>

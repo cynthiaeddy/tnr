@@ -1,15 +1,10 @@
 import React from 'react'
-import './MostPopular.css'
+import '../stylesheets/MostPopular.css'
 
 class MostPopular extends React.Component {
   render() {
-    let imgUrl
-    const images = this.props.ledeImage
-    for (let img in images) {
-      if (img === 'src') {
-        imgUrl = images[img]
-      }
-    }
+    console.log(this.props.ledeImage.src)
+    let imgUrl = this.props.ledeImage.src
 
     return (
       <li>

@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Article from './Article'
 import MostPopular from './MostPopular'
-import './Search.css'
+import '../stylesheets/Search.css'
 
 class Search extends React.Component {
   constructor(props) {
@@ -154,6 +154,9 @@ class SearchResults extends React.Component {
           author={article.authors[0]}
         />
       ))
+    if (!this.state.articles.length) {
+      return null
+    }
     const popArticle = this.state.articles
       .slice(3)
       .map((article) => (
